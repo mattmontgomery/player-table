@@ -15,7 +15,7 @@ const DateEntry = styled.td`
     width: 3rem;
     height: 2rem;
     margin: 0 .15rem;
-    background: ${props => !props.mins ? 'transparent' : props.mins >= 45 ? 'linear-gradient(0, #DDEEFF, #DDEEFF, transparent)' : 'linear-gradient(0, #DDFFDD, #DDFFDD, transparent)'};
+    background: ${props => !props.mins ? 'transparent' : props.mins >= 45 ? 'linear-gradient(0, #FFFFDD, transparent, transparent)' : 'linear-gradient(0, #DDDDDD, transparent, transparent)'};
     font-weight: ${({ result }) => result === 'W' ? 'bold' : 'normal'};
     text-decoration: ${({ result }) => result === 'L' ? 'line-through' : 'initial'};
 `
@@ -61,7 +61,6 @@ class DateGrid extends PureComponent {
         ];
     }
     render() {
-        console.log(this.props.dates);
         return (
             <DateTable>
                 <tbody>
