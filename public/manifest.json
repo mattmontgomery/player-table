@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MLS Players Table",
+  "name": "MLS Players / Minutes Table",
   "icons": [
     {
       "src": "favicon.ico",
