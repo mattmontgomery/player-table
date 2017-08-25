@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "crayon": "^0.1.0",
+    "redux": "^3.7.2",
+    "scrape-it": "^3.3.2",
+    "table-scraper": "^0.1.0"
+  }
+}
